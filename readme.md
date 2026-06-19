@@ -79,6 +79,8 @@ To generate traffic, ICMP Echo Requests are sent from D1:
 ping -c 5 8.8.8.8
 ```
 
+![ICMP by D1](icm_wireshark_by_d1.png)
+
 ---
 
 ## Wireshark Analysis
@@ -94,6 +96,8 @@ When analyzing the Ethernet frame:
 
 This confirms that D1 sends its traffic to K1.
 
+![ICMP REQUEST WIRESHSARK ANALYSIS](icmp_request.png)
+
 ### ICMP Echo Reply
 
 When analyzing the returning frame:
@@ -102,6 +106,9 @@ When analyzing the returning frame:
 * The destination MAC address corresponds to K1.
 
 This confirms that returning traffic is also received by K1 before reaching D1.
+
+![ICMP REPLY WIRESHSARK ANALYSIS](icmp_request.png)
+
 
 ### Result
 
