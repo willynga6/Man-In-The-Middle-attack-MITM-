@@ -107,7 +107,7 @@ When analyzing the returning frame:
 
 This confirms that returning traffic is also received by K1 before reaching D1.
 
-![ICMP REPLY WIRESHSARK ANALYSIS](icmp_request.png)
+![ICMP REPLY WIRESHSARK ANALYSIS](icmp_reply.png)
 
 
 ### Result
